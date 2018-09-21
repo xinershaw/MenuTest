@@ -1,0 +1,17 @@
+#YAML格式的测试用例
+- caseName: bkLogin
+  detail:  bk正常登录
+  url:  /home/signin
+  method:  post
+  parameter:
+    account:  xiaoxin
+    password:  111111
+  headers:
+    Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+- caseName:  bkIndex
+  detail:  bk首页
+  url:  /home
+  method:  get
+  headers:
+    Content-Type: application/x-www-form-urlencoded; charset=UTF-8
